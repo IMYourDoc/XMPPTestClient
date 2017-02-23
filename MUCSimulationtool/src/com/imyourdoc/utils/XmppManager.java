@@ -122,7 +122,7 @@ public class XmppManager {
           
       if (connection!=null && connection.isConnected()) {
 
-          connection.login(username, password);
+          connection.login(username, password, "Testclient_New_Version");
           System.out.println("Connection establashed");
 
       }
